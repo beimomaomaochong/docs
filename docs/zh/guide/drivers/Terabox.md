@@ -24,11 +24,10 @@ star: true
 
 ~~[**点此登录**](https://www.terabox.com/)进行获取刷新令牌，随意找一个请求即可找到 **`Cookie`**~~
 
-由于目前网页端已经禁用了F12，我们可以先在别的页面打开F12将 `网络` → `保留日志` 选项打开
+由于目前网页端已经禁用了F12，我们可以先在别的页面打开F12将`右上角小齿轮` → `偏好设置` → `停用JavaScript` 选项打开
 
-<img src="/img/drivers/terabox/terabox_f12.png" alt="f12" style="zoom:150%;" /><br/>
 
-然后在从这个标签页地址栏输入 https://www.terabox.com 进入网页，就能看到保留的请求，再从保留的请求找找到 **`Cookie`**
+然后在从这个标签页地址栏输入 https://www.terabox.com 进入网页，就能看到请求，再从保留的请求找找到 **`Cookie`**
 
 ![terabox](/img/drivers/terabox/terabox_cookie.png)
 
